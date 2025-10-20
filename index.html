@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Study Time Manager Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Smart Study Time Manager Pro</h1>
+
+    <div class="goal-section">
+      <input type="number" id="goalInput" placeholder="Enter daily goal (mins)">
+      <button id="saveGoalBtn">Set Goal</button>
+      <p id="goalStatus"></p>
+    </div>
+
+    <div class="timer">
+      <h2 id="time">00:00:00</h2>
+      <div class="buttons">
+        <button id="startBtn">Start Study</button>
+        <button id="stopBtn">Stop</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+      <p>Total Study Today: <span id="totalTime">0</span> mins</p>
+
+      <div class="progress-bar">
+        <div id="progressFill"></div>
+      </div>
+    </div>
+
+    <div class="quote-box">
+      <p id="quote">"Focus on progress, not perfection."</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
